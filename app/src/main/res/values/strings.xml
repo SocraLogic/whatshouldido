@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">What Should I Do Today</string>
+    <string name="main_instruction">What is the weather like where you are?</string>
+    <string name="sunny">Sunny</string>
+    <string name="windy">Windy</string>
+    <string name="rainy">Rainy</string>
+    <string name="cloudy">Cloudy</string>
+    <string name="snowy">Snowy</string>
+    <string name="thundery">Thundery</string>
+</resources>

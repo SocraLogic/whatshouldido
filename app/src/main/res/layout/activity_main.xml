@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="@string/main_instruction"
+            android:textColor="@color/background"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/sunnyButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:layout_weight="1"
+            android:onClick="loadSuggestion"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/sunny" />
+
+        <ImageButton
+            android:id="@+id/rainButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/rain" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/snowyButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/snowy" />
+
+        <ImageButton
+            android:id="@+id/windyButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/windy" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/cloudyButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/cloudy" />
+
+        <ImageButton
+            android:id="@+id/thunderButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:padding="0dp"
+
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/thunder" />
+    </LinearLayout>
+
+</LinearLayout>
