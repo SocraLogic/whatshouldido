@@ -49,7 +49,8 @@
         android:layout_weight="0.5"
         android:background="@color/background"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        app:adUnitId="ca-app-pub-2704150661150067/2375934448">
+        <!-- ca-app-pub-2704150661150067/2375934448 -->
     </com.google.android.gms.ads.AdView>
 
 </LinearLayout>
