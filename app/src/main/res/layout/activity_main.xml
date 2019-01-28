@@ -61,7 +61,7 @@
             android:onClick="loadRainy"
             android:layout_weight="1"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/rain" />
+            app:srcCompat="@drawable/rainy" />
     </LinearLayout>
 
     <LinearLayout

@@ -65,13 +65,13 @@ class SuggestionsData {
     }};
 
     private final static List<Suggestion> rainySuggestions = new ArrayList<Suggestion>() {{
-        add(new Suggestion("Rainy", "Definitely a good time to catch up on the chores", R.drawable.rain));
-        add(new Suggestion("Rainy", "Plan some days away for when it's sunny", R.drawable.rain));
-        add(new Suggestion("Rainy", "Take a walk in the rain, just take some towels", R.drawable.rain));
-        add(new Suggestion("Rainy", "Let's get to work on the house project list", R.drawable.rain));
-        add(new Suggestion("Rainy", "How about learning something new", R.drawable.rain));
-        add(new Suggestion("Rainy", "Time to settle down with a book", R.drawable.rain));
-        add(new Suggestion("Rainy", "How about some gaming time", R.drawable.rain));
+        add(new Suggestion("Rainy", "Definitely a good time to catch up on the chores", R.drawable.rainy));
+        add(new Suggestion("Rainy", "Plan some days away for when it's sunny", R.drawable.rainy));
+        add(new Suggestion("Rainy", "Take a walk in the rain, just take some towels", R.drawable.rainy));
+        add(new Suggestion("Rainy", "Let's get to work on the house project list", R.drawable.rainy));
+        add(new Suggestion("Rainy", "How about learning something new", R.drawable.rainy));
+        add(new Suggestion("Rainy", "Time to settle down with a book", R.drawable.rainy));
+        add(new Suggestion("Rainy", "How about some gaming time", R.drawable.rainy));
     }};
 
     final static Map<String, List<Suggestion>> suggestions = new HashMap<String, List<Suggestion>>() {{
