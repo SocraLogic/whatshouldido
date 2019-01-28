@@ -82,7 +82,7 @@
             android:onClick="loadSnowy"
             android:layout_weight="1"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/snowy" />
+            app:srcCompat="@drawable/snow" />
 
         <ImageButton
             android:id="@+id/windyButton"

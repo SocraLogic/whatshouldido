@@ -10,7 +10,7 @@ class SuggestionsData {
     static final String WINDY = "windy";
     static final String CLOUDY = "cloudy";
     static final String THUNDER = "thunder";
-    static final String SNOWY = "snowy";
+    static final String SNOWY = "snow";
     static final String RAINY = "rainy";
 
     private final static List<Suggestion> sunnySuggestions= new ArrayList<Suggestion>() {{
@@ -55,13 +55,13 @@ class SuggestionsData {
     }};
 
     private final static List<Suggestion> snowySuggestions = new ArrayList<Suggestion>() {{
-        add(new Suggestion("Snowy", "Wrap up and take a walk in the snow!", R.drawable.snowy));
-        add(new Suggestion("Snowy", "Build a snowman", R.drawable.snowy));
-        add(new Suggestion("Snowy", "Take some artistic wintery photo's", R.drawable.snowy));
-        add(new Suggestion("Snowy", "Wrap up in front of the TV and watch a film", R.drawable.snowy));
-        add(new Suggestion("Snowy", "Get snug with a mug of coco and read a book", R.drawable.snowy));
-        add(new Suggestion("Snowy", "Time for some hearty soup to warm the soul", R.drawable.snowy));
-        add(new Suggestion("Snowy", "How about getting snug in bed with a book", R.drawable.snowy));
+        add(new Suggestion("Snowy", "Wrap up and take a walk in the snow!", R.drawable.snow));
+        add(new Suggestion("Snowy", "Build a snowman", R.drawable.snow));
+        add(new Suggestion("Snowy", "Take some artistic wintery photo's", R.drawable.snow));
+        add(new Suggestion("Snowy", "Wrap up in front of the TV and watch a film", R.drawable.snow));
+        add(new Suggestion("Snowy", "Get snug with a mug of coco and read a book", R.drawable.snow));
+        add(new Suggestion("Snowy", "Time for some hearty soup to warm the soul", R.drawable.snow));
+        add(new Suggestion("Snowy", "How about getting snug in bed with a book", R.drawable.snow));
     }};
 
     private final static List<Suggestion> rainySuggestions = new ArrayList<Suggestion>() {{
