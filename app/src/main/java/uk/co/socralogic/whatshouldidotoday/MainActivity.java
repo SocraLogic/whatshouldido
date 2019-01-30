@@ -16,6 +16,7 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
 
     private AdView mAdView;
+    private ScreenState state = ScreenState.HOME;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +27,13 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        setContentView(R.layout.activity_main);
+        if(state == ScreenState.HOME){
+            finish();
+            super.onBackPressed();
+        } else if(state == ScreenState.SUGGESTION){
+            state = ScreenState.HOME;
+            setContentView(R.layout.activity_main);
+        }
     }
 
     public void loadSunny(View view){
@@ -65,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
             weatherImage.setImageResource(suggestion.getImageResourceId());
             suggestionText.setText(suggestion.getSuggestion());
             weatherText.setText(suggestion.getWeather());
+            state = ScreenState.SUGGESTION;
 
             mAdView = findViewById(R.id.adView);
             AdRequest adRequest = new AdRequest.Builder().build();
